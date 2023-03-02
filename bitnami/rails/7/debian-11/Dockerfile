@@ -1,7 +1,7 @@
 FROM docker.io/bitnami/minideb:bullseye
 
 ARG TARGETARCH
-
+#trigger
 LABEL org.opencontainers.image.base.name="docker.io/bitnami/minideb:bullseye" \
       org.opencontainers.image.created="2023-03-02T00:59:52Z" \
       org.opencontainers.image.description="Application packaged by VMware, Inc" \
