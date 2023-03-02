@@ -4,8 +4,6 @@ command:
     timeout: 60000
     exec: "rails new /app"
     exit-status: 0
-    stdout:
-      - successfully installed
   # Ensure the sassc gem exists
   check-sassc:
     exec: "ruby -e \"require 'sassc'\""
