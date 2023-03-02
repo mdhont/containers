@@ -1,6 +1,6 @@
 # Node.js packaged by Bitnami
 
-## What is Node.js?
+### What is Node.js?
 
 > Node.js is a runtime environment built on V8 JavaScript engine. Its event-driven, non-blocking I/O model enables the development of fast, scalable, and data-intensive server applications.
 
