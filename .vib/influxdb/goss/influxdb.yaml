@@ -1,7 +1,6 @@
 command:
   check-influxd:
-    timeout: 10000
-    exec: timeout 18s influxd || true
+    exec: timeout 5s influxd || true
     exit-status: 0
     stdout:
       - Welcome
