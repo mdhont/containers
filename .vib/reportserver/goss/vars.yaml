@@ -1,0 +1,30 @@
+binaries:
+  - gosu
+  - java
+  - mysql
+  - render-template
+files:
+  - mode: "0664"
+    paths:
+      - /opt/bitnami/reportserver/WEB-INF/classes/persistence.properties
+      - /opt/bitnami/reportserver/WEB-INF/classes/reportserver.properties
+      - /opt/bitnami/reportserver/WEB-INF/classes/rsinit.properties
+      - /opt/bitnami/tomcat/bin/setenv.sh
+      - /opt/bitnami/tomcat/conf/server.xml
+  - mode: "0755"
+    paths:
+      - /opt/bitnami/tomcat/bin/version.sh
+directories:
+  - mode: "0775"
+    paths:
+      - /bitnami/tomcat/webapps/reportserver
+      - /opt/bitnami/reportserver
+      - /opt/bitnami/reportserver/WEB-INF/classes
+      - /opt/bitnami/tomcat
+      - /opt/bitnami/tomcat/conf
+      - /opt/bitnami/tomcat/lib
+      - /opt/bitnami/tomcat/logs
+      - /opt/bitnami/tomcat/temp
+      - /opt/bitnami/tomcat/webapps_default
+      - /opt/bitnami/tomcat/work
+root_dir: /opt/bitnami

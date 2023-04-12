@@ -1,0 +1,5 @@
+command:
+  # There are no syntax error in the configuration
+  check-configuration:
+    exec: echo bla
+    exit-status: 0
